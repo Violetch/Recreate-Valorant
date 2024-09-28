@@ -1,0 +1,10 @@
+@media screen and (max-width: 1025px) {
+  .fo-wrapper-dd {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fo-wrapper-ptc {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
