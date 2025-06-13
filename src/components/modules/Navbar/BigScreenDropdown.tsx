@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import {
   Business,
@@ -11,8 +10,8 @@ import {
 import { ImgBigscreen } from "./DropdownImgRiot";
 
 const BigScreenDropdown = () => {
-  const [isIndex, setIsIndex] = useState(null);
-  const [isHoverImg, setIsHoverImg] = useState(false);
+  const [isIndex, setIsIndex] = useState<number | null>(null);
+  const [isHoverImg, setIsHoverImg] = useState<boolean>(false);
   const isSmallScreen = useMediaQuery({ query: "(max-width: 1040px)" });
 
   return (

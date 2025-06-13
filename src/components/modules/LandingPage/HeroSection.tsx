@@ -1,6 +1,4 @@
-import React from "react";
 import ReactPlayer from "react-player";
-import ButtonAction from "../Button";
 import "./section.css";
 
 const HeroSection = () => {
@@ -42,7 +40,6 @@ const HeroSection = () => {
           />
         </div>
       </div>
-      <ButtonAction />
     </div>
   );
 };

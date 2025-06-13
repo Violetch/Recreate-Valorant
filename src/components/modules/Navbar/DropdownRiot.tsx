@@ -9,8 +9,8 @@ import { useMediaQuery } from "react-responsive";
 import SmallScreenDropdown from "./SmallScreenDropdown";
 
 const Dropdown = () => {
-  const [isHover, setIsHover] = useState(false);
-  const [isDropDown, setIsDropDown] = useAtom(atomDropDown);
+  const [isHover, setIsHover] = useState<boolean>(false);
+  const [isDropDown, setIsDropDown] = useAtom<boolean>(atomDropDown);
   const isSmallScreen = useMediaQuery({ query: "(max-width: 835px)" });
 
   const Arial = {

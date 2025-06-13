@@ -1,5 +1,3 @@
-import React from "react";
-
 const MapsSection = () => {
   const Tungsten = {
     fontFamily: `"Tungsten-Bold", sans-serif`,

@@ -1,4 +1,3 @@
-import React from "react";
 import LandingLayout from "../../components/layouts/LandingLayout";
 import HeroSection from "../../components/modules/LandingPage/HeroSection";
 import ArticleSection from "../../components/modules/LandingPage/ArticleSection";

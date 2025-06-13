@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import { HiOutlineGlobeAlt } from "react-icons/hi2";
 import { MdOutlineArrowDropDown } from "react-icons/md";

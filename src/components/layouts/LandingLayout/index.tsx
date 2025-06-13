@@ -1,13 +1,17 @@
 import Navbar from "../../modules/Navbar/Navbar";
 import { atomDropDown, atomIsBars } from "../../../jotai";
 import { useAtom } from "jotai";
-import { useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 import Footer from "../../modules/Footer/Footer";
 
-const LandingLayout = ({ children }) => {
-  const [isDropDown, setIsDropDown] = useAtom(atomDropDown);
-  const [isBars, setIsBars] = useAtom(atomIsBars);
-  const scrollPositionRef = useRef(0);
+interface TypeLandingLayout {
+  children: ReactNode;
+}
+
+const LandingLayout = ({ children }: TypeLandingLayout) => {
+  const [isDropDown] = useAtom<boolean>(atomDropDown);
+  const [isBars, setIsBars] = useAtom<boolean>(atomIsBars);
+  const scrollPositionRef = useRef<number>(0);
 
   useEffect(() => {
     if (isDropDown || isBars) {

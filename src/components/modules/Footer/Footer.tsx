@@ -46,7 +46,6 @@ const Footer = () => {
           <img
             className="w-[90px] h-full opacity-30 hover:opacity-100"
             src="./icon-8.png"
-            onMouseLeave={() => setIsIcon(false)}
           />
           <img className="w-[70px]" src="./icon-12.png" />
         </div>

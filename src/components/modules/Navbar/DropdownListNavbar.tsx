@@ -1,4 +1,3 @@
-import React from "react";
 import { MdArrowOutward, MdOutlineArrowDropDown } from "react-icons/md";
 
 export const GameInfo = () => {
